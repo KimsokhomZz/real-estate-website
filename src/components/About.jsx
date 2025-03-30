@@ -41,6 +41,15 @@ const About = () => {
               <p>Ongoing Projects</p>
             </div>
           </div>
+          <p className="my-10 max-w-lg">
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+            Repudiandae, temporibus libero iure cumque dolorum rerum, sapiente
+            minima distinctio esse qui vitae eum laborum iusto voluptates beatae
+            ipsum tempore consequuntur assumenda.
+          </p>
+          <button className="bg-blue-600 text-white px-8 py-2 rounded hover:bg-blue-500 transition duration-300 cursor-pointer">
+            Learn more
+          </button>
         </div>
       </div>
     </div>
