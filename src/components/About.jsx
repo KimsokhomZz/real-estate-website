@@ -1,9 +1,14 @@
 import React from "react";
 import { assets } from "../assets/assets";
+import { motion } from "framer-motion";
 
 const About = () => {
   return (
-    <div
+    <motion.div
+      initial={{ opacity: 0, x: 200 }}
+      transition={{ duration: 1 }}
+      whileInView={{ opacity: 1, x: 0 }}
+      viewport={{ once: true }}
       id="About"
       className="container w-full flex flex-col items-center justify-center py-14 md:py-20 lg:py-32 overflow-hidden"
     >
@@ -52,7 +57,7 @@ const About = () => {
           </button>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 };
 
