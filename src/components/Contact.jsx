@@ -85,7 +85,10 @@ const Contact = () => {
             ></textarea>
           </div>
         </div>
-        <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded hover:bg-blue-500 transition duration-300 cursor-pointer">
+        {/* <button className="bg-blue-600 text-white py-2 px-12 mb-10 rounded hover:bg-blue-500 transition duration-300 cursor-pointer">
+          {result ? result : "Send Message"}
+        </button> */}
+        <button className="bg-[#D96C30] text-white py-2 px-12 mb-10 rounded hover:bg-[#E07A4A] transition duration-300 cursor-pointer">
           {result ? result : "Send Message"}
         </button>
       </form>

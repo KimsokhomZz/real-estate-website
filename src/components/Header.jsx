@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <div
       className="min-h-screen mb-4 bg-cover bg-center flex items-center w-full overflow-hidden"
-      style={{ backgroundImage: 'url("/header_img.png")' }}
+      style={{ backgroundImage: 'url("/header_img1.png")' }}
       id="Header"
     >
       <Navbar />
@@ -21,7 +21,7 @@ const Header = () => {
           Explore homes that fit your dreams
         </h2>
         <div className="space-x-6 mt-16">
-          <a
+          {/* <a
             href="#Projects"
             className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition duration-300"
           >
@@ -30,6 +30,18 @@ const Header = () => {
           <a
             href="#Contact"
             className="bg-blue-600 px-8 py-3 rounded hover:bg-blue-500 transition duration-300"
+          >
+            Contact Us
+          </a> */}
+          <a
+            href="#Projects"
+            className="border border-white px-8 py-3 rounded hover:bg-white hover:text-black transition duration-300"
+          >
+            Projects
+          </a>
+          <a
+            href="#Contact"
+            className="bg-[#D96C30] px-8 py-3 rounded hover:bg-[#E07A4A] transition duration-300"
           >
             Contact Us
           </a>

@@ -18,23 +18,26 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center py-4 px-6 md:px-20 lg:px-32 bg-transparent">
         <img src={assets.logo} alt="logo image" />
         <ul className="hidden md:flex gap-7 text-white">
-          <a href="#Header" className="cursor-pointer hover:text-gray-400">
+          <a
+            href="#Header"
+            className="cursor-pointer relative hover:text-gray-400 transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#D96C30] after:transition-all after:duration-300 hover:after:w-full"
+          >
             Home
           </a>
-          <a href="#About" className="cursor-pointer hover:text-gray-400">
+          <a href="#About" className="cursor-pointer relative hover:text-gray-400 transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#D96C30] after:transition-all after:duration-300 hover:after:w-full">
             About
           </a>
-          <a href="#Projects" className="cursor-pointer hover:text-gray-400">
+          <a href="#Projects" className="cursor-pointer relative hover:text-gray-400 transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#D96C30] after:transition-all after:duration-300 hover:after:w-full">
             Projects
           </a>
           <a
             href="#Testimonials"
-            className="cursor-pointer hover:text-gray-400"
+            className="cursor-pointer relative hover:text-gray-400 transition duration-300 after:content-[''] after:absolute after:left-0 after:bottom-0 after:w-0 after:h-[2px] after:bg-[#D96C30] after:transition-all after:duration-300 hover:after:w-full"
           >
             Testimonials
           </a>
         </ul>
-        <button className="hidden md:block bg-white px-8 py-2 rounded-full hover:bg-blue-600 hover:text-white transition duration-300 cursor-pointer">
+        <button className="hidden md:block bg-white px-8 py-2 rounded-full hover:bg-[#D96C30] hover:text-white transition duration-300 cursor-pointer">
           Sign up
         </button>
         <img
